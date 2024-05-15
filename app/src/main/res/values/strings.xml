@@ -2,4 +2,13 @@
     <string name="app_name">webSocketClient</string>
     <string name="enter_username">Enter username</string>
     <string name="image_placeholder">Image Placeholder</string>
+    <string name="username">username</string>
+    <string name="player_1">Player 1</string>
+    <string name="host">Host</string>
+    <string name="connected">Connected</string>
+    <string name="player_profile_image">Player profile image</string>
+    <string name="player_2">Player 2</string>
+    <string name="empty">Empty</string>
+    <string name="player_3">Player 3</string>
+    <string name="player_4">Player 4</string>
 </resources>

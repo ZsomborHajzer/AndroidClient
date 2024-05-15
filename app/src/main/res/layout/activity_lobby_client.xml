@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/startGameButton"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LobbyClient">
@@ -29,13 +29,14 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:srcCompat="@tools:sample/avatars" />
+                tools:srcCompat="@tools:sample/avatars"
+                android:contentDescription="@string/player_profile_image" />
 
             <TextView
                 android:id="@+id/textViewPlayer1Status"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Host"
+                android:text="@string/host"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/textViewPlayer1"
                 app:layout_constraintTop_toBottomOf="@+id/textViewPlayer1" />
@@ -46,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="52dp"
                 android:layout_marginTop="4dp"
-                android:text="Player 1"
+                android:text="@string/player_1"
                 app:layout_constraintStart_toEndOf="@+id/imageViewPlayer1"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -55,7 +56,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="92dp"
-                android:text="username"
+                android:text="@string/username"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textViewPlayer1"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -85,13 +86,14 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:srcCompat="@tools:sample/avatars" />
+                tools:srcCompat="@tools:sample/avatars"
+                android:contentDescription="@string/player_profile_image" />
 
             <TextView
                 android:id="@+id/textViewPlayer2Status"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Connected"
+                android:text="@string/connected"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/textViewPlayer2"
                 app:layout_constraintTop_toBottomOf="@+id/textViewPlayer2" />
@@ -101,7 +103,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="52dp"
-                android:text="Player 2"
+                android:text="@string/player_2"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageViewPlayer2"
                 app:layout_constraintTop_toTopOf="parent"
@@ -112,7 +114,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="92dp"
-                android:text="username"
+                android:text="@string/username"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textViewPlayer2"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -142,13 +144,14 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:srcCompat="@tools:sample/avatars" />
+                tools:srcCompat="@tools:sample/avatars"
+                android:contentDescription="@string/player_profile_image" />
 
             <TextView
                 android:id="@+id/textViewPlayer3Status"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Empty"
+                android:text="@string/empty"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/textViewPlayer3"
                 app:layout_constraintTop_toBottomOf="@+id/textViewPlayer3" />
@@ -158,7 +161,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="52dp"
-                android:text="Player 3"
+                android:text="@string/player_3"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageViewPlayer3"
                 app:layout_constraintTop_toTopOf="parent"
@@ -169,7 +172,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="92dp"
-                android:text="username"
+                android:text="@string/username"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textViewPlayer3"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -198,13 +201,14 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:srcCompat="@tools:sample/avatars" />
+                tools:srcCompat="@tools:sample/avatars"
+                android:contentDescription="@string/player_profile_image" />
 
             <TextView
                 android:id="@+id/textViewPlayer4Status"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Empty"
+                android:text="@string/empty"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/textViewPlayer4"
                 app:layout_constraintTop_toBottomOf="@+id/textViewPlayer4" />
@@ -215,7 +219,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="52dp"
                 android:layout_marginTop="4dp"
-                android:text="Player 1"
+                android:text="@string/player_4"
                 app:layout_constraintStart_toEndOf="@+id/imageViewPlayer4"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -224,7 +228,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="92dp"
-                android:text="username"
+                android:text="@string/username"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textViewPlayer4"
                 app:layout_constraintTop_toTopOf="parent" />
