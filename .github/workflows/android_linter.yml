@@ -26,3 +26,8 @@ jobs:
       run: chmod +x gradlew
     - name: Run lint check
       run: ./gradlew lint
+    - name: Upload lint report
+      uses: actions/upload-artifact@v3
+      with:
+        name: lint-report
+        path: app/build/reports/lint-results-debug.html
